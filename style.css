@@ -482,12 +482,14 @@ body.dark-theme {
 }
 
 /* For large devices */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     .container {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .projects__content {
+        grid-template-columns: repeat(2, 500px);
+    }
     .change-theme {
         top: 2.5rem;
         right: 2.5rem;
