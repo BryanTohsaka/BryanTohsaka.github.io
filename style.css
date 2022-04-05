@@ -160,7 +160,7 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-    width: 75px;
+    width: 100%;
 }
 
 .profile__border {
@@ -470,14 +470,14 @@ body.dark-theme {
 
 @media screen and (min-width: 776px) {
 
-    .projects__content,
-    .skills__content {
+    .projects__content {
         grid-template-columns: repeat(2, 332px);
     }
 
     .skills__content {
         justify-content: center;
         column-gap: 3rem;
+        grid-template-columns: repeat(1, 332px);
     }
 }
 
@@ -509,7 +509,7 @@ body.dark-theme {
     }
 
     .profile__perfil img {
-        width: 90px;
+        width: 100%;
     }
 
     .profile__profession {
